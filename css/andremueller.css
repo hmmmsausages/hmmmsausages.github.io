@@ -1,0 +1,122 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(88, 57, 25);
+}
+a:hover,
+a:focus{
+    color: rgb(139, 118, 95);
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    border-color: rgb(0,0,0);
+    max-width: 100px;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,234,211);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    font-family: 'Pacifico', cursive;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* My Studies */
+
+.mystudies {
+    padding: 100px 0;
+    background-color: rgb(255,234,211);
+}
+
+.mystudies-item {
+    margin-bottom: 30px;
+}
+
+.circle{
+    color: rgb(88, 57, 25);
+}
+
+.circle-text { 
+    color: rgb(255,255,255);
+    font-size:35px;
+    display:block;
+}
+
+/* Blank Space */
+
+.blank {
+    padding: 5px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/* My Studies */
+
+.myskills {
+    padding: 100px 0;
+    background-color: rgb(255,234,211);
+}
+
+.myskills-item {
+    margin-bottom: 30px;
+}
+
+/* My Projects */
+
+.projects {
+    padding: 50px 0;
+}
+
+.project-item {
+    margin-bottom: 30px;
+    position: relative
+}
+
+.img-project {
+    margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+    background-color: rgb(255,234,211);
+}
